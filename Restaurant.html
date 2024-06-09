@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+    <!--Roboto font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--css styles-->
+    <link rel="stylesheet" href="./styles.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="./IMAGES/logo1.jpg" type="image/x-icon">
+    <title>Restaurant App</title>
+</head>
+<body>
+    <!--responsive navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./IMAGES/logo1.jpg" width="80px" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link "  href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Restaurants</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link " >Items</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!--header-->
+    <header>
+        <div class="content p-3">
+            <div class="title border rounded px-3 mb-3">
+                <h1>Your Favourite Place</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, sed!
+                </p>
+                
+            </div>
+            <img src="./IMAGES/2.webp"width="300px" height="300px" alt="" class="rounded-circle mb-2 ">
+            <!--block-->
+            <div class="w-50 mx-auto display-6 text-center banner">
+                Lorem ipsum dolor sit.
+            </div>
+        </div>
+    </header>
+    <!--grid of cards-->
+    <div class="container main my-4">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 my-5 gy-5">
+        <!--col-1-->
+        <div class="col">
+          <!--card-1-->
+          <div class="card h-100">
+              <img src="./IMAGES/item-1.jpeg" class="w-100 card-img-top" alt="">
+              <div class="card-body text-center">
+              <h1 class="dish-name">Item-1</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, debitis!</p>
+              <div class="button btn btn-outline-warning" data-bs-target="#Item-1" data-bs-toggle="collapse">customize</div>
+                <div class="collapse" id="Item-1">
+                  <ul class="nav flex-column">
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Butter</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href=""class= "nav-link">Sauce</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Jam</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--col-2-->
+        <div class="col">
+          <!--card-2-->
+          <div class="card h-100">
+              <img src="./IMAGES/item-2.webp" class="w-100 card-img-top" alt="">
+              <div class="card-body text-center">
+              <h1 class="dish-name">Item-2</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, debitis!</p>
+              <div class="button btn btn-outline-warning" data-bs-target="#Item-2" data-bs-toggle="collapse">customize</div>
+                <div class="collapse" id="Item-2">
+                  <ul class="nav flex-column">
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Butter</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href=""class= "nav-link">Sauce</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Jam</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--col-3-->
+        <div class="col">
+          <!--card-3-->
+          <div class="card h-100">
+              <img src="./IMAGES/item-3.jpeg" class="w-100 card-img-top" alt="">
+              <div class="card-body text-center">
+              <h1 class="dish-name">Item-3</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, debitis!</p>
+              <div class="button btn btn-outline-warning" data-bs-target="#Item-3" data-bs-toggle="collapse">customize</div>
+                <div class="collapse" id="Item-3">
+                  <ul class="nav flex-column">
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Butter</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href=""class= "nav-link">Sauce</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Jam</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--col-4-->
+        <div class="col">
+          <!--card-4-->
+          <div class="card h-100">
+              <img src="./IMAGES/item-4.webp" class="w-100 card-img-top" alt="">
+              <div class="card-body text-center">
+              <h1 class="dish-name">Item-4</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, debitis!</p>
+              <div class="button btn btn-outline-warning" data-bs-target="#Item-4" data-bs-toggle="collapse">customize</div>
+                <div class="collapse" id="Item-4">
+                  <ul class="nav flex-column">
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Butter</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href=""class= "nav-link">Sauce</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Jam</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--col-5-->
+        <div class="col">
+          <!--card-5-->
+          <div class="card h-100">
+              <img src="./IMAGES/item-4.jpeg" class="w-100 card-img-top" alt="">
+              <div class="card-body text-center">
+              <h1 class="dish-name">Item-5</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, debitis!</p>
+              <div class="button btn btn-outline-warning" data-bs-target="#Item-5" data-bs-toggle="collapse">customize</div>
+                <div class="collapse" id="Item-5">
+                  <ul class="nav flex-column">
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Butter</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href=""class= "nav-link">Sauce</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Jam</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--col-6-->
+        <div class="col">
+          <!--card-6-->
+          <div class="card h-100">
+              <img src="./IMAGES/item-6.webp" class="w-100 card-img-top" alt="">
+              <div class="card-body text-center">
+              <h1 class="dish-name">Item-6</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, debitis!</p>
+              <div class="button btn btn-outline-warning" data-bs-target="#Item-6" data-bs-toggle="collapse">customize</div>
+                <div class="collapse" id="Item-6">
+                  <ul class="nav flex-column">
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Butter</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href=""class= "nav-link">Sauce</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Jam</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--col-7-->
+        <div class="col">
+          <!--card-7-->
+          <div class="card h-100">
+              <img src="./IMAGES/item-9.jpeg" class="w-100 card-img-top" alt="">
+              <div class="card-body text-center">
+              <h1 class="dish-name">Item-7</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, debitis!</p>
+              <div class="button btn btn-outline-warning" data-bs-target="#Item-7" data-bs-toggle="collapse">customize</div>
+                <div class="collapse" id="Item-7">
+                  <ul class="nav flex-column">
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Butter</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href=""class= "nav-link">Sauce</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Jam</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--col-8-->
+        <div class="col">
+          <!--card-8-->
+          <div class="card h-100">
+              <img src="./IMAGES/item-8.jpeg" class="w-100 card-img-top" alt="">
+              <div class="card-body text-center">
+              <h1 class="dish-name">Item-8</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, debitis!</p>
+              <div class="button btn btn-outline-warning" data-bs-target="#Item-8" data-bs-toggle="collapse">customize</div>
+                <div class="collapse" id="Item-8">
+                  <ul class="nav flex-column">
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Butter</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href=""class= "nav-link">Sauce</a>
+                    </li>
+                    <li class="nav flex-column">
+                      <a href="#"class= "nav-link">Jam</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--horizontal cards-->
+    <div class="card mb-3">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="./IMAGES/7.jpeg" class="w-100" alt="">
+        </div>
+        <div class="col-sm-8 d-flex align-items-center bg-warning text-white">
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, a aut. Quasi ducimus eligendi doloribus odit perferendis. Excepturi, architecto adipisci.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--carousel-->
+    <div class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1500">
+        <img src="./IMAGES/1.jpeg"class="d-block mx-auto w-50" alt="">
+      </div>
+      <div class="carousel-item" data-bs-interval="1500">
+        <img src="./IMAGES/2.webp"class="d-block mx-auto w-50" alt="">
+      </div>
+      <div class="carousel-item " data-bs-interval="1500">
+        <img src="./IMAGES/3.jpeg"class="d-block mx-auto w-50" alt="">
+      </div>
+      <div class="carousel-item " data-bs-interval="1500">
+        <img src="./IMAGES/4.jpeg"class="d-block mx-auto w-50" alt="">
+      </div>
+      
+    </div>
+    </div>
+    <!--footer-->
+    <footer>
+      <div class="address">
+        <p class="lead">kphb</p>
+        <p class="lead">9999999</p>
+        <h5>Hyderabad</h5>
+        <h5>Telanagana</h5>
+      </div>
+      <div><img src="./IMAGES/footer.svg"  class="footer-img d-none d-sm-block"alt=""> </div>
+      <div class="address">
+        <p class="lead">kphb</p>
+        <p class="lead">9999999</p>
+        <h5>Hyderabad</h5>
+        <h5>Telanagana</h5>
+      </div>
+    </footer>
+
+
+
+
+
+
+    <!--Javascript bundle with popper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
